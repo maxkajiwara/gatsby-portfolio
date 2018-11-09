@@ -11,7 +11,7 @@ tags:
 
 https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/graphs/contributors
 
-##Monday
+### Monday
 We decided on a tech stack.
 https://docs.google.com/document/d/1zVRXTBC7DHDebiPs5M-kJ44FJ6rH9eBCXKzHOcxHcYA/edit?usp=sharing
 
@@ -20,7 +20,7 @@ https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/commit/33faed5d5065e74f680
 
 I also started learning how to use MS SQL Server Express.
 
-##Tuesday
+### Tuesday
 I designed the component file structure.
 https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/commit/16ee8a53d5958f767c5167568008a6fb58bc6b31
 
@@ -29,7 +29,7 @@ https://social.technet.microsoft.com/wiki/contents/articles/31786.sql-server-not
 
 I got familiar with using SSMS and Azure Data Studio to manage the database.
 
-##Wednesday
+### Wednesday
 I set up table migrations for the database.
 https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/6
 https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/9
@@ -39,7 +39,7 @@ I eventually got the migrations working with my local database. One of my dumb, 
 
 After getting migrations working, I started learning how to use Azure.
 
-##Thursday
+### Thursday
 I got a MS SQL Server database set up on Microsoft Azure and configured the firewall. It took a while to get things working. I've been through hundreds of docs, guides, and stackoverflow pages at this point. I tested knex migrations from my computer to the database.
 https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/25
 
@@ -47,19 +47,19 @@ I spent too many hours trying to get our backend deployed to Azure web apps. I f
 
 I also spent some time sketching out most of our routes and models with pseudocode. All that's left is registration and search.
 
-## Tasks Pulled
+# Tasks Pulled
 
 - Inital project setup
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/commit/33faed5d5065e74f6805d025178a2d875017b5a3
  - https://trello.com/c/VXlvIf84
 This wasn't a pull request but I assume it counts as frontend and backend.
 
-#Front End
+## Front End
 - Component file structure
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/commit/16ee8a53d5958f767c5167568008a6fb58bc6b31
  - Forgot to make a trello card for this
 
-#Back End
+## Back End
 - Build database schemas
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/6
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/9
@@ -77,7 +77,7 @@ This wasn't a pull request but I assume it counts as frontend and backend.
  - https://trello.com/c/2BOBvPy9
 
 
-##Detailed Analysis
+# Detailed Analysis
 When deploying the backend to Heroku, I ran into an issue with Heroku only looking for package.json in the root directory of the repo. After some googling, I found a buildpack to solve the problem.
 ![](https://i.imgur.com/cdLOtd4.png)
 https://github.com/timanovsky/subdir-heroku-buildpack
@@ -92,7 +92,7 @@ The backend successfully deployed. Hooray!
 
 ![](https://i.imgur.com/fRphdhO.png)
 
-##Milestone Reflections
+# Milestone Reflections
 Oh boy. I shouldn't have tried to use a new database management system.
 
 When deciding on our tech stack, I encouraged the team to try something new that we'll likely work with on future jobs. I don't mind spending a couple days learning a new tool. I eventually got everything deployed and connected, but the team had become very impatient and people were unwilling to install SQL Server locally for testing.
