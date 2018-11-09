@@ -1,0 +1,13 @@
+{
+  "uid": "maxkajiwara",
+  "name": "Max Kajiwara",
+  "image": "https://api.adorable.io/avatars/150/test.png",
+  "url": "https://maxkajiwara-devblog.netlify.com/",
+  "location": "San Francisco",
+  "bio": "hi.",
+  "socialUrls": [
+    "https://github.com/maxkajiwara",
+    "https://twitter.com/maxkajiwara",
+    "mailto:maxkajiwara@gmail.com"
+  ]
+}
