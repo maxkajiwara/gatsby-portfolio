@@ -81,3 +81,19 @@ Our /project/:id page works now! As do our other pages.
 
 # Milestone Reflections
 Work in progress.
+
+- Front and back end servers are connected
+    https://ratemydiy.netlify.com/project/4
+    We can get any project from the database and display it. Adding, updating, and deleting projects do not work yet because we aren't able to authorize users.
+
+- Users can create accounts and log in through the front end via OAuth
+    https://ratemydiy.netlify.com/signin
+    Users are added to our users table with their auth0 id after logging in. It looks like sessions are also getting stored to the backend as well. We can't seem to get the cookie or any token from the browser to the backend for authorization.
+    On Wednesday we were able to copy the cookie from the browser and paste it into Postman to successfully manipulate projects. We have never been able to replicate the behavior from the browser.
+
+- All APIs and services are connected and can be interacted with through the front end. A test message is acceptable to meet this requirement
+    https://ratemydiy.netlify.com/
+    Mike set up SendGrid last night. I got it working on deployment today. It sends a simple message to whatever email address you submit.
+    David has Twilio working in his local environment but not in deployment. I'll take a look at it after I finish this blog post.
+
+The vast majority of our time has been dedicated to figuring out why our authorization setup isn't working. I've been coding and debugging nonstop since Tuesday. I'm gonna take a break tomorrow and then work through the break.
