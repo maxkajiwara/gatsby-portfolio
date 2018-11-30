@@ -55,6 +55,7 @@ https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/58
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/47
  - https://trello.com/c/mFgKoUjQ
 
+
  - Pair programming: Set up authorization middleware
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/47
  - https://trello.com/c/mFgKoUjQ
