@@ -59,14 +59,15 @@ Also a ton of other pair programming but I forgot to track the trello cards
 Coming soon
 
 # Milestone Reflections
-I've been working on this project for over 80 hours this week and it still feels like it hasn't been enough. So many features are still incomplete or broken. I'm having to spend a lot of my time building and fixing things for other people's features as well. I don't mind helping them, and I'm glad to get things working but I can't spend the time I need to get my own tasks done.
+I've been working on this project for over 80 hours this week and it still feels like it hasn't been enough. So many features are still incomplete or broken. I'm having to spend a lot of my time building and fixing things for other people's features as well. I don't mind helping them and I'm glad to get things working but I can't spend the time I need to get my own tasks done.
 
-Last night I figured out sql transactions but knex -> mssql -> sql server doesn't support them. Early this morning I set up a Heroku Postgres server and they're work fine with that.
+Last night I figured out sql transactions but knex -> mssql -> sql server doesn't support them. Early this morning I set up a Heroku Postgres server and they're working fine with that.
 
-There were many other major challenges I overcame this week but I'm struggling to recall them at the moment; I'm still working hard on bugs and features; other tasks like watching principles for success or writing this journal feels like a distraction from getting MVP done. Every moment documenting changes or issues is a moment not building or debugging. Everyone is feeling this pressure; our pull requests barely get glanced over most of the time, broken code gets merged constantly because everyone's impatient to see their changes deployed and we just don't have the time to do thorough tests.
+There were many other major challenges I overcame this week but I'm struggling to recall them at the moment; I'm still working hard on bugs and features. Other tasks like watching principles for success or writing this journal feels like a distraction from getting MVP done. Every moment documenting changes or issues is a moment not building or debugging.
+I think everyone is feeling this pressure. Our pull requests barely get glanced over most of the time. Broken code gets merged constantly because everyone's impatient to see their changes deployed and we just don't have the time to do thorough tests.
 
 ##Features
-Everything is likely to be broken depending on the state of the master branch. My bugfixes haven't been merged yet. There's so much more I know I can fix, given more time. Nearly any fault with the user experience is something I'm already aware of. I'll fix it myself if nobody else will.
+Everything is likely to be broken depending on the state of the master branch. My bugfixes haven't been merged yet. There's so much more I know I can fix given more time. Nearly any fault with the user experience is something I'm already aware of. I'll fix it myself if nobody else will.
 
  - Landing Page https://ratemydiy.netlify.com/
  - Search Page https://ratemydiy.netlify.com/search
