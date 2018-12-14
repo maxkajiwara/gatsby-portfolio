@@ -44,29 +44,20 @@ I review some pull requests, did some last minute tweaking before the demo, and 
 # Tasks Pulled
 
 ## Front End
-- Fix behavior for editing or deleting a review
- - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/119
- - https://trello.com/c/SNTaVp29
-
-- Solve issue with fetches not being asychronous on ProjectList and Reviewlist
- - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/121
- - https://trello.com/c/pP4GsJDV
-
-- Update the project page to behave correctly when navigated to using links or back/forward
- - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/129
-
-
-## Front End
+- Update projectReducer.reviews when user changes a card's like value
 - Various ux improvements
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/141
+ - https://trello.com/c/OtRBmuFV
 
 - Add category selection to the new project page and displayed them on the project page.
 - Update new project page styling
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/142
+ - https://trello.com/c/QvgGz9EE
 
 ## Back End
 - Add like functionality to backend. Updates the helpfulness stat of a review and its author whenever a like is added/changed/removed.
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/122
+ - https://trello.com/c/our4NlEc
 
  - Display empty cards when loading projects
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/136
@@ -80,6 +71,7 @@ I review some pull requests, did some last minute tweaking before the demo, and 
 - Add rating validation to EditReview route
 - Various ui tweaks
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/123
+ - https://trello.com/c/C9qyX8LD
 
 
 - Refactor the review modal with updated actions and props
@@ -88,7 +80,7 @@ I review some pull requests, did some last minute tweaking before the demo, and 
 - Fix some minor bugs
 - Add like functionality to the review modal
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/126
-
+ - https://trello.com/c/ZNohy50N
 
 - Restyled project cards and the featured projects container
 - Built and styled review cards
@@ -98,6 +90,8 @@ I review some pull requests, did some last minute tweaking before the demo, and 
 - Added a hopefully obvious dropdown arrow
 - Made a bunch of other miscellaneous tweaks and fixes
  - https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/134
+ - https://trello.com/c/EZYefEAP
+ - https://trello.com/c/F00AKg82
  
 
 
