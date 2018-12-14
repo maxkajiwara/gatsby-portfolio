@@ -100,16 +100,18 @@ Work in progress
 
 # Milestone Reflections
 
-I feel exhausted. I worked really hard this week on finishing up most of the missing or incomplete features and functionality. Once most of these changes were working and deployed I was able to finally move on to styling the fronted. I feel like I made some major contributions to improving the aesthetics and user experience for the site even in the relatively short amount of time I've spent on styling.
+I feel exhausted. I worked really hard this week on finishing up most of the missing or incomplete features and functionality. Once most of these changes were working and deployed I was able to finally move on to styling the fronted. I feel like I made some major contributions to improving the aesthetics and user experience for the site even in the relatively short amount of time I've spent on working on it.
 
-That being said, I'm still fairly dissatisfied with various unstyled elements and inconsistent visual design around the site. Many of the components are still bare bones structural elements. I've also continued to meet resistance when suggesting user experience improvements to my teammates. In the end I've just had to keep adding tasks to my personal list of "nobody else will do it so I'll have to do it myself. Eventually." For example, the dropdown menu and its text was ridiculously tiny and even though I brought it up often, nobody thought it was a problem. I fixed that and many other issues this week, but there are still many, many more, such as lack of visual feedback during image uploads ("Is the site working? Did I lose connection? Should I try again?"). At first I felt like I was just annoying my teammates but now I'm convinced that these are the kind of things that definitely belong in a polished project.
+That being said, I'm still fairly dissatisfied with various unstyled elements and inconsistent visual design around the site. Many of the components are still bare bones structures with tiny input fields, radio buttons, and cramped text strings. There are still many user actions that aren't accounted for, such as trying to create or review a project without being logged in. Users who signed up with gmail still can't change their profile settings and they have the potential to run into unique name constraint errors. You can still get stuck in limbo between auth0 and account creation on the backend. Search still doesn't handle categories, reviews, or users. There is no request rate limiting on the backend and prop types aren't enforced.
 
-There are still many user actions that aren't accounted for, such as trying to create or review a project without being logged in. Users who signed up with gmail still can't change their profile settings and they have the potential to run into unique name constraint errors. You can still get stuck in limbo between auth0 and account creation on the backend. Search doesn't handle categories, reviews, or users.
+I've also continued to meet resistance when suggesting user experience improvements to my teammates. Invariably I end up adding tasks to my personal list of "nobody else will do it so I'll have to do it myself. Eventually." For example, the dropdown menu and its links were ridiculously tiny and hard to click, and even though I brought it up often, nobody thought it was a problem. I fixed that and many other issues this week, but there are still many, many more, such as lack of visual feedback during image uploads ("Is the site working? Did I lose connection? Should I try again?"). At first I felt like I was just annoying my teammates but now I'm convinced that these are just the kind of things that definitely belong in a polished project.
+
+
 
 I'm heading back home to visit my family in Hawaii for a couple weeks but I intend to come back refreshed and spend the rest of the break working on improving the project.
 
 ### Tech Stack
-From top to bottom, we have a react redux frontend with auth0 handling authentication, a node express backend using knex to build queries communicating to our heroku postgres database, and aws s3 for image hosting.
+From top to bottom, we have a react redux frontend with auth0 handling authentication, a node express backend using knex to build queries, a heroku postgres database, and aws s3 for image hosting.
 
 ### The Application
 You can share your own diy projects, rate and review others' projects, and even provide feedback for reviews themselves in the form of likes or dislikes. You can also search for projects by name, description, or maker.
